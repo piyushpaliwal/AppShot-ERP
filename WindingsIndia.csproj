@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB3DB0E9-8DBB-493A-BEE1-4EC1E5E607F4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindingsIndia</RootNamespace>
+    <AssemblyName>WindingsIndia</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\..\..\Tools\AjaxControlToolkit.Binary.NET4\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>D:\AppShot-Portfolio\Resources\Log4Net and Log Viewer\log4net-1.2.11-bin-newkey\log4net-1.2.11\bin\net\3.5\release\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AddMaterial.aspx" />
+    <Content Include="AddRawMaterial.aspx" />
+    <Content Include="Admin\css\blitzer\images\ui-bg_diagonals-thick_75_f3d8d8_40x40.png" />
+    <Content Include="Admin\css\blitzer\images\ui-bg_dots-small_65_a6a6a6_2x2.png" />
+    <Content Include="Admin\css\blitzer\images\ui-bg_flat_0_333333_40x100.png" />
+    <Content Include="Admin\css\blitzer\images\ui-bg_flat_65_ffffff_40x100.png" />
+    <Content Include="Admin\css\blitzer\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Admin\css\blitzer\images\ui-bg_glass_55_fbf8ee_1x400.png" />
+    <Content Include="Admin\css\blitzer\images\ui-bg_highlight-hard_100_eeeeee_1x100.png" />
+    <Content Include="Admin\css\blitzer\images\ui-bg_highlight-hard_100_f6f6f6_1x100.png" />
+    <Content Include="Admin\css\blitzer\images\ui-bg_highlight-soft_15_cc0000_1x100.png" />
+    <Content Include="Admin\css\blitzer\images\ui-icons_004276_256x240.png" />
+    <Content Include="Admin\css\blitzer\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="Admin\css\blitzer\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="Admin\css\blitzer\jquery-ui-1.8.17.custom.css" />
+    <Content Include="Admin\css\buttons.css" />
+    <Content Include="Admin\css\checkboxes.css" />
+    <Content Include="Admin\css\datatables.css" />
+    <Content Include="Admin\css\ie.css" />
+    <Content Include="Admin\css\inputtags.css" />
+    <Content Include="Admin\css\main.css" />
+    <Content Include="Admin\css\reset.css" />
+    <Content Include="Admin\css\visualize.css" />
+    <Content Include="Admin\img\anchor.png" />
+    <Content Include="Admin\img\avatar.png" />
+    <Content Include="Admin\img\badge.png" />
+    <Content Include="Admin\img\bg.png" />
+    <Content Include="Admin\img\chart.png" />
+    <Content Include="Admin\img\checkboxes\checkbox.gif" />
+    <Content Include="Admin\img\checkboxes\checkbox.png" />
+    <Content Include="Admin\img\checkboxes\radio.gif" />
+    <Content Include="Admin\img\checkboxes\radio.png" />
+    <Content Include="Admin\img\dashboard.png" />
+    <Content Include="Admin\img\datatables\back_disabled.jpg" />
+    <Content Include="Admin\img\datatables\back_disabled.png" />
+    <Content Include="Admin\img\datatables\back_enabled.jpg" />
+    <Content Include="Admin\img\datatables\back_enabled.png" />
+    <Content Include="Admin\img\datatables\favicon.ico" />
+    <Content Include="Admin\img\datatables\forward_disabled.jpg" />
+    <Content Include="Admin\img\datatables\forward_disabled.png" />
+    <Content Include="Admin\img\datatables\forward_enabled.jpg" />
+    <Content Include="Admin\img\datatables\forward_enabled.png" />
+    <Content Include="Admin\img\datatables\sort_asc.png" />
+    <Content Include="Admin\img\datatables\sort_asc_disabled.png" />
+    <Content Include="Admin\img\datatables\sort_both.png" />
+    <Content Include="Admin\img\datatables\sort_desc.png" />
+    <Content Include="Admin\img\datatables\sort_desc_disabled.png" />
+    <Content Include="Admin\img\error.png" />
+    <Content Include="Admin\img\exclamation.png" />
+    <Content Include="Admin\img\gallery.png" />
+    <Content Include="Admin\img\gallery\man.png" />
+    <Content Include="Admin\img\gh-icons.png" />
+    <Content Include="Admin\img\information.png" />
+    <Content Include="Admin\img\logo.png" />
+    <Content Include="Admin\img\modal.png" />
+    <Content Include="Admin\img\newspaper.png" />
+    <Content Include="Admin\img\notification_bg.png" />
+    <Content Include="Admin\img\pencil.png" />
+    <Content Include="Admin\img\saved.png" />
+    <Content Include="Admin\img\search.png" />
+    <Content Include="Admin\img\search_bg.png" />
+    <Content Include="Admin\img\select.png" />
+    <Content Include="Admin\img\stars.png" />
+    <Content Include="Admin\img\success.png" />
+    <Content Include="Admin\img\tables.png" />
+    <Content Include="Admin\img\tab_inactive.png" />
+    <Content Include="Admin\img\wysiwyg.png" />
+    <Content Include="Admin\img\wysiwyg_icon.png" />
+    <Content Include="Admin\img\wysiwyg_icon_hover.png" />
+    <Content Include="Admin\js\application.js" />
+    <Content Include="Admin\js\appshot.js" />
+    <Content Include="Admin\js\excanvas.js" />
+    <Content Include="Admin\js\iframe\default\lbl-blockquote.png" />
+    <Content Include="Admin\js\iframe\default\lbl-h1.png" />
+    <Content Include="Admin\js\iframe\default\lbl-h2.png" />
+    <Content Include="Admin\js\iframe\default\lbl-h3.png" />
+    <Content Include="Admin\js\iframe\default\lbl-h4.png" />
+    <Content Include="Admin\js\iframe\default\lbl-h5.png" />
+    <Content Include="Admin\js\iframe\default\lbl-h6.png" />
+    <Content Include="Admin\js\iframe\default\lbl-p.png" />
+    <Content Include="Admin\js\iframe\default\lbl-pre.png" />
+    <Content Include="Admin\js\iframe\default\wymiframe.css" />
+    <Content Include="Admin\js\iframe\default\wymiframe.html" />
+    <Content Include="Admin\js\jquery-ui-1.8.17.custom.min.js" />
+    <Content Include="Admin\js\jquery.checkboxes.js" />
+    <Content Include="Admin\js\jquery.datatables.js" />
+    <Content Include="Admin\js\jquery.inputtags.js" />
+    <Content Include="Admin\js\jquery.js" />
+    <Content Include="Admin\js\jquery.livesearch.js" />
+    <Content Include="Admin\js\jquery.placeholder.js" />
+    <Content Include="Admin\js\jquery.selectskin.js" />
+    <Content Include="Admin\js\jquery.validate.js" />
+    <Content Include="Admin\js\jquery.visualize.js" />
+    <Content Include="Admin\js\jquery.wymeditor.js" />
+    <Content Include="Admin\js\lang\bg.js" />
+    <Content Include="Admin\js\lang\ca.js" />
+    <Content Include="Admin\js\lang\cs.js" />
+    <Content Include="Admin\js\lang\cy.js" />
+    <Content Include="Admin\js\lang\de.js" />
+    <Content Include="Admin\js\lang\en.js" />
+    <Content Include="Admin\js\lang\es.js" />
+    <Content Include="Admin\js\lang\fa.js" />
+    <Content Include="Admin\js\lang\fi.js" />
+    <Content Include="Admin\js\lang\fr.js" />
+    <Content Include="Admin\js\lang\gl.js" />
+    <Content Include="Admin\js\lang\he.js" />
+    <Content Include="Admin\js\lang\hr.js" />
+    <Content Include="Admin\js\lang\hu.js" />
+    <Content Include="Admin\js\lang\it.js" />
+    <Content Include="Admin\js\lang\nb.js" />
+    <Content Include="Admin\js\lang\nl.js" />
+    <Content Include="Admin\js\lang\nn.js" />
+    <Content Include="Admin\js\lang\pl.js" />
+    <Content Include="Admin\js\lang\pt-br.js" />
+    <Content Include="Admin\js\lang\pt.js" />
+    <Content Include="Admin\js\lang\ru.js" />
+    <Content Include="Admin\js\lang\sv.js" />
+    <Content Include="Admin\js\lang\tr.js" />
+    <Content Include="Admin\js\lang\zh_cn.js" />
+    <Content Include="Admin\js\notifications.js" />
+    <Content Include="Admin\js\plugins\embed\jquery.wymeditor.embed.js" />
+    <Content Include="Admin\js\plugins\fullscreen\icon_fullscreen.gif" />
+    <Content Include="Admin\js\plugins\fullscreen\jquery.wymeditor.fullscreen.js" />
+    <Content Include="Admin\js\plugins\hovertools\jquery.wymeditor.hovertools.js" />
+    <Content Include="Admin\js\plugins\resizable\jquery.wymeditor.resizable.js" />
+    <Content Include="Admin\js\plugins\resizable\readme.txt" />
+    <Content Include="Admin\js\plugins\tidy\jquery.wymeditor.tidy.js" />
+    <Content Include="Admin\js\plugins\tidy\wand.png" />
+    <Content Include="Admin\js\skins\compact\icons.png" />
+    <Content Include="Admin\js\skins\compact\skin.css" />
+    <Content Include="Admin\js\skins\compact\skin.js" />
+    <Content Include="Admin\js\skins\default\bluebutton_bg.png" />
+    <Content Include="Admin\js\skins\default\icons.png" />
+    <Content Include="Admin\js\skins\default\loading.gif" />
+    <Content Include="Admin\js\skins\default\skin.css" />
+    <Content Include="Admin\js\skins\default\skin.js" />
+    <Content Include="Admin\js\skins\default\tab_bg.png" />
+    <Content Include="Admin\js\skins\default_old\icons.png" />
+    <Content Include="Admin\js\skins\default_old\icons_old.png" />
+    <Content Include="Admin\js\skins\default_old\skin.css" />
+    <Content Include="Admin\js\skins\default_old\skin.js" />
+    <Content Include="Admin\js\skins\minimal\images\bg.header.gif" />
+    <Content Include="Admin\js\skins\minimal\images\bg.selector.silver.gif" />
+    <Content Include="Admin\js\skins\minimal\images\bg.wymeditor.png" />
+    <Content Include="Admin\js\skins\minimal\images\icons.silver.gif" />
+    <Content Include="Admin\js\skins\minimal\skin.css" />
+    <Content Include="Admin\js\skins\minimal\skin.js" />
+    <Content Include="Admin\js\skins\silver\images\bg.header.gif" />
+    <Content Include="Admin\js\skins\silver\images\bg.selector.silver.gif" />
+    <Content Include="Admin\js\skins\silver\images\bg.wymeditor.png" />
+    <Content Include="Admin\js\skins\silver\images\icons.silver.gif" />
+    <Content Include="Admin\js\skins\silver\skin.css" />
+    <Content Include="Admin\js\skins\silver\skin.js" />
+    <Content Include="Admin\js\skins\twopanels\icons.png" />
+    <Content Include="Admin\js\skins\twopanels\skin.css" />
+    <Content Include="Admin\js\skins\twopanels\skin.js" />
+    <Content Include="Admin\js\skins\wymeditor_icon.png" />
+    <Content Include="AssemblyInward.aspx" />
+    <Content Include="Home.aspx" />
+    <Content Include="IssueIndents.aspx" />
+    <Content Include="MaterialInward.aspx" />
+    <Content Include="PageMethods.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddMaterial.aspx.cs">
+      <DependentUpon>AddMaterial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddMaterial.aspx.designer.cs">
+      <DependentUpon>AddMaterial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddRawMaterial.aspx.cs">
+      <DependentUpon>AddRawMaterial.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddRawMaterial.aspx.designer.cs">
+      <DependentUpon>AddRawMaterial.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInward.aspx.cs">
+      <DependentUpon>AssemblyInward.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AssemblyInward.aspx.designer.cs">
+      <DependentUpon>AssemblyInward.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BL\AppShotAssemblyHandler.ashx.cs">
+      <DependentUpon>AppShotAssemblyHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="BL\AppShotRawMaterialHandler.ashx.cs">
+      <DependentUpon>AppShotRawMaterialHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="BL\Common.cs" />
+    <Compile Include="Home.aspx.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.aspx.designer.cs">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="IssueIndents.aspx.cs">
+      <DependentUpon>IssueIndents.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="IssueIndents.aspx.designer.cs">
+      <DependentUpon>IssueIndents.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MaterialInward.aspx.cs">
+      <DependentUpon>MaterialInward.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MaterialInward.aspx.designer.cs">
+      <DependentUpon>MaterialInward.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PageMethods.aspx.cs">
+      <DependentUpon>PageMethods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PageMethods.aspx.designer.cs">
+      <DependentUpon>PageMethods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Admin\img\.DS_Store" />
+    <None Include="Admin\img\datatables\Sorting icons.psd" />
+    <None Include="Admin\js\plugins\tidy\README" />
+    <None Include="Admin\js\plugins\tidy\tidy.php" />
+    <None Include="Admin\js\skins\default_old\icons.psd" />
+    <None Include="Admin\js\skins\silver\COPYING" />
+    <None Include="Admin\js\skins\silver\README" />
+    <Content Include="BL\AppShotRawMaterialHandler.ashx" />
+    <Content Include="BL\AppShotAssemblyHandler.ashx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>14213</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
